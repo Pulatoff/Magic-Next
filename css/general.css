@@ -97,6 +97,17 @@ p {
   background-color: #b28451;
 }
 
+.grid-8-4 {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+}
+
+.left__header-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #b28451;
+}
+
 .grid-1-2 {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -152,6 +163,6 @@ p {
   width: 100%;
 }
 
-.height-100{
+.height-100 {
   height: 100%;
 }
