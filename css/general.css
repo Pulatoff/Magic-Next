@@ -1,0 +1,157 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.subheading__primary {
+  color: #c69963;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-top: 7.2rem;
+}
+
+.heading__primary {
+  font-size: 5.2rem;
+  color: white;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  color: #6d5d4b;
+  margin-bottom: 1.6rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.upercase {
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 1.6rem;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+.text-about {
+  font-size: 1.6rem;
+  color: #54483a;
+  line-height: 2;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  background-color: #c69963;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.btn-3 {
+  display: inline-block;
+  padding: 1.5rem 0;
+  background-color: #c69963;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  background-color: #101d2c;
+  width: 60%;
+  color: white;
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.left__header {
+  width: 100%;
+  height: 100%;
+  background-color: #b28451;
+}
+
+.grid-1-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-column-1-7-4 {
+  display: grid;
+  grid-template-columns: 0.5fr 8fr 3.5fr;
+}
+
+.grid-1-11 {
+  display: grid;
+  grid-template-columns: 0.5fr 11.5fr;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-of-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  gap: 8rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-top-3 {
+  margin-top: 3.2rem;
+}
+
+.margin-top-4 {
+  margin-top: 4.8rem;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.height-100{
+  height: 100%;
+}
